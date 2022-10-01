@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/images/bg-desktop.svg);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+    padding: 8px;
+}
+
+header img {
+    width: 30px;
+    height: auto;
+    padding-right: 5px;
+}
+
+button {
+    background-color: white;
+    color: hsl(257, 40%, 49%);
+    margin: 20px 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 3px 5px 10px #00000048;
+}
