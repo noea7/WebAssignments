@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+}
+
+.special_font {
+    font-family: 'Fraunces', serif;
+}
+
+.content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 600px auto;
+}
+
+.card__image {
+    background-image: url("/images/image-product-desktop.jpg");
+    height: 900px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.card__description {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 0px 20px 20px 0px;
+    width: 500px;
+}
+
+.card__description h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+    font-size: 60px;
+
+}
+
+.card__description h4 {
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+
+.price {
+    margin: 80px 0px 40px 0;
+}
+
+.price--new {
+    color: hsl(158, 36%, 37%);
+    font-size: 3em;
+}
+
+.price--old {
+    text-decoration: line-through;
+}
+
+.card__button {
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    font-size: 1.25em;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.card__button img {
+    width: 30px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.card__button:hover {
+    background-color: hsl(158, 36%, 20%);
+}
