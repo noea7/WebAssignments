@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #68b340;
+}
+
+.header-image {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/header-background.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.header-image h1, p, button {
+    opacity: 1;
+}
+
+.header-image h1 { 
+    color: #68b340;
+}
+
+.header-image button {
+    background-color: #68b340;
+}
