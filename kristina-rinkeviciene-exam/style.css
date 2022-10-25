@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+}
+
+.font--raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.font--open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text--dark {
+    color: hsl(243, 87%, 12%);
+}
+
+.nav__logo img {
+    width: 130px;
+}
+
+.font--bold {
+    font-weight: 700;
+}
+
+.font--light-grey {
+    color: hsl(0, 0%, 75%);
+}
+
+.font--light-blue {
+    color: hsl(0, 0%, 75%);
+}
+
+.background--light-blue {
+    background-color: hsl(240, 75%, 98%);
+}
+
+.background--desaturated-blue {
+    background-color: hsl(238, 22%, 44%);
+}
+
+.background--dark-blue {
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(0, 0%, 75%);
+    ;
+}
+
+.background--curve {
+    background-image: url("/images/bg-curve-mobile.svg");
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.footer__logo {
+    width: 150px;
+}
